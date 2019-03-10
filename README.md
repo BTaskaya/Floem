@@ -11,7 +11,7 @@ Defines a static variable and when preprocessing fills all parts with that varia
 
 ### Control Flow Directive
 Compares 2 static at preprocessing time and if comperation successfully occurs it allows the code inside the `!startif` & `!endif` directives to run. If not the code just be deleted.
-```py
+```
 class Dummy:
     def __init__(self, y):
         self.x = y
@@ -22,7 +22,7 @@ class Dummy:
         !endif
 ```
 ### Example
-```py
+```
 !define flag as 1323
 !define name as "floem"
 

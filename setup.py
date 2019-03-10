@@ -8,7 +8,7 @@ with open(current_dir / 'README.md', encoding='utf-8') as f:
 setup(
     name = 'floem',
     packages = ['floem'],
-    version = '0.1',
+    version = '0.1.1',
     author = 'BTaskaya',
     author_email = 'batuhanosmantaskaya@gmail.com',
     url = 'https://btaskaya/floem',
